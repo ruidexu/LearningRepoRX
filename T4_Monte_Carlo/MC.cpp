@@ -17,6 +17,8 @@ random_pair ran;
 
 int main()
 {
+	cout << "I luv github" << "\n";
+	
 	ofstream a_file = ran.open_file_and_check("coordinate.txt");
 	ofstream b_file = ran.open_file_and_check("num.txt");
 
